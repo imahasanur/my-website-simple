@@ -1,0 +1,178 @@
+body{
+    font-family:'Roboto', sans-serif;
+    margin:0;
+    padding:0;
+}
+*{
+    box-sizing:border-box;
+}
+ul{
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    overflow:hidden;
+}
+ul li a{
+    display:block;
+    text-decoration:none;
+    color:black;
+    padding:8px 15px;
+}
+ul li{
+    float:right;
+}
+ul li:first-child{
+    margin-right:2%;
+}
+section{
+    height:500px;
+    width:100%;
+    margin-top:20px;   
+}
+.same-style{
+    width:45%;
+    padding:20px 20px;
+    margin-left:2%;
+    height:fit-content;
+}
+.same-style img{
+    width:500px;
+    height:450px;
+    padding-left:30px;
+}
+.intro-section{
+    float:left;
+}
+h2{
+    color:#363958;
+    font-size:40px;
+    font-weight:700;
+}
+h2.color-text{
+    color:#FF8367;
+    font-size:40px;
+}
+p{
+    color:#777777;
+}
+.beautiful-button{
+    text-decoration:none;
+    background:#F66560;
+    color:white;
+    padding:10px 25px;
+    border-radius:5px;
+}
+.about-section{
+    float:left;
+}
+.center-section{
+    padding-top:60px;
+}
+.project-gallery{
+    float:left;
+    width:250px;
+    border:1px solid whitesmoke;
+    box-shadow:5px 5px 5px pink;
+    border-radius:4px;
+
+}
+.project-desc{
+    padding:10px;  
+}
+div.project-gallery .project-view img{
+    width:100%;
+    height:auto;
+}
+.projects{
+    margin-left:20%;
+    margin-right:10%;
+}
+.project-gallery{
+    margin-right:20px;
+    margin-top:10px;
+}
+section.contact-section{
+    background: linear-gradient(180deg, whitesmoke,white);
+    color:black;
+    height:450px;
+    width:80%;
+    box-shadow: 6px 6px 6px pink;
+    margin-left:100px;
+}
+.contact-form{
+    padding:40px;
+    margin-left:40%;
+    height:auto;
+    width:300px;
+    border:1px solid white;
+    box-shadow:6px 6px 6px pink;
+
+}
+input[type="text"]:not([id="description"]){
+    height:30px;
+    width:200px;
+    border:1px solid orange;
+}
+input[type="text"]:hover{
+    border:2px solid gray;
+    background:oldlace;
+}
+input[type="email"]{
+    height:30px;
+    width:200px;
+    border:1px solid orange;
+}
+input[type="email"]:hover{
+    border:3px solid whitesmoke;
+    background:skyblue;
+}
+input[type="submit"]{
+    padding:8px 15px;
+    background:linear-gradient(180de,skyblue,whitesmoke,white);
+    border-radius:5px;
+    color:black;
+    border: 1px solid orange;
+}
+input[id="description"]{
+    height:60px;
+    width:200px;
+    border:1px solid orange;
+}
+section.inquiry-section{
+    height:200px;
+    width:55%;
+    position: relative;
+    text-align:center;
+    color:white;
+    margin-left:25%;
+    margin-top:40px;
+
+}
+.inquiry-section img{
+    width:100%;
+}
+.right-section{
+    position:absolute;
+    top:60px;
+    right:15px;
+}
+.left-section{
+    position:absolute;
+    top:50px;
+    left:15px;
+}
+footer{
+    text-align:center;
+    height: 200px;
+    padding-top:30px;
+}
+footer .footer-icon{
+    float:left;
+    height:50px;
+    width:400px;
+    margin-left:35%;
+}
+.footer-icon img{
+    width:25px;
+    height:25px;
+}
