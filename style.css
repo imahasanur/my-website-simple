@@ -153,18 +153,19 @@ section.inquiry-section{
 }
 .right-section{
     position:absolute;
-    top:60px;
+    top:80px;
     right:15px;
 }
 .left-section{
     position:absolute;
-    top:50px;
+    top:60px;
     left:15px;
 }
 footer{
     text-align:center;
     height: 200px;
     padding-top:30px;
+    margin-top:30px;
 }
 footer .footer-icon{
     float:left;
